@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    background: #ffffff;
+}
+
+#title {
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px;
+    margin: 10px 200px;
+    background: #e88484;
+}
+
+p {
+    font-size: 18px;
+    font-family: Open Sans, sans-serif;
+}
+
+#img-div {
+    padding: 30px 300px;
+}
+
+.responsive-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    margin: 10px;
+}
+
+#tribute-info {
+    padding: 10px 500px;
+}
+
+#headline {
+    padding: 10px;
+    font-size: 22px;
+    font-family: Montserrat, sans-serif;
+    background: #e88484;
+}
+
+li {
+    line-height: 2;
+    font-size: 18px;
+    font-family: Open Sans, sans-serif;
+}
+
+#tribute-quote {
+    background: #e88484;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 15px;
+    text-indent: -0.45em;
+}
+
+
+#link-div {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+#tribute-link {
+    color: #e88484;
+}
