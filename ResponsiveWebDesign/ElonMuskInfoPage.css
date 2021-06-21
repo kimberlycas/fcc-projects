@@ -9,6 +9,7 @@ body {
     padding: 10px;
     margin: 10px 200px;
     background: #e88484;
+    text-align: center;
 }
 
 p {
@@ -28,6 +29,7 @@ p {
 }
 
 figcaption {
+    font-family: Open Sans, sans-serif;
     text-align: center;
     margin: 10px;
 }
@@ -58,6 +60,9 @@ li {
     text-indent: -0.45em;
 }
 
+#elon-musk-quote {
+    text-align: right;
+}
 
 #link-div {
     text-align: center;
