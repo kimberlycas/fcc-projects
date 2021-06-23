@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: Open Sans, sans-serif;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    background-color: #fbc02d;
+}
+
+#nav-links {
+    float: right;
+    display: block;
+    padding: 20px;
+    color: black;
+}
+
+.nav-link {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#logo {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+
+#nav-text {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    font-family: Fredericka the Great, cursive;
+    color: #616161;
+}
+
+main {
+    margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+    }
+}
+#features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.features-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.features-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.features-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.features-headline {
+    margin: 0;
+}
+
+.features-paragraph {
+    margin: 5px;
+}
+
+#farmers-video {
+    text-align: center;
+    margin: 30px;
+}
+
+#selection {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    border-radius: 15px;
+    background-color: #c5e1a5;
+    padding: 15px;
+}
+
+.offer-headline {
+    background: #fbc02d;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0;
+}
+
+.offer-text {
+    display: inline-block;
+}
+
+.offer-button {
+    margin-top: auto;
+    padding: 10px;
+    border-radius: 45px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.offer-button:hover {
+    background-color: #b2ff59;
+    box-shadow: 0 15px 20px rgba(126, 203, 32, 0.4);
+    color: black;
+    transform: translateY(-3px);
+}
+
+#form {
+    text-align: center;
+    padding: 20px;
+}
+
+#email {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#submit {
+    padding: 10px;
+    border-radius: 20px;
+    background: white;
+}
+
+footer {
+    text-align: center;
+}
